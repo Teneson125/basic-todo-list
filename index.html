@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+      <!-- Input box for adding tasks -->
+      <div class="input-box">
+        <input
+          class="add-task-input"
+          type="text"
+          id="taskInput"
+          placeholder="Add a new task"
+        />
+        <!-- "Add" button represented as an icon -->
+        <span id="addButton" disabled><i class="fas fa-plus"></i></span>
+      </div>
+
+      <!-- Container for buttons -->
+      <div class="box-div">
+        <!-- "Complete All" button -->
+        <p id="completeAllButton">Complete All</p>
+        <!-- "Complete Selected" button -->
+        <p id="completeSelectedButton">Complete Selected</p>
+        <!-- "Clear All" button represented as text -->
+        <p id="clearAllButton">Clear All</p>
+      </div>
+
+      <ul id="taskList"></ul>
+
+      <!-- Container for task counts -->
+      <div class="box-div">
+        <!-- Task count -->
+        <p id="taskCount">0 tasks</p>
+        <!-- Complete count -->
+        <p id="completeCount">0 complete</p>
+        <!-- Pending count -->
+        <p id="remainingCount">0 pending</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

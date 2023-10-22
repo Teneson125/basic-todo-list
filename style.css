@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 10px;
+}
+
+.container {
+  max-width: 400px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+}
+
+#addButton {
+  color: #ccc;
+}
+
+#clearAllButton {
+  cursor: pointer;
+  color: #ff5733;
+}
+
+#completeAllButton,
+#completeSelectedButton {
+  cursor: pointer;
+  color: #4caf50;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+li.completed {
+  background-color: #d3ffd3;
+}
+
+.complete-checkbox {
+  margin-right: 10px;
+}
+
+.complete-icon {
+  font-size: 18px;
+  color: #4caf50;
+  cursor: pointer;
+}
+
+.completed .complete-icon {
+  color: #ccc;
+}
+.box-div {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.input-box {
+  display: flex;
+  border: 1px solid #ccc;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.add-task-input {
+  width: 85%;
+}
