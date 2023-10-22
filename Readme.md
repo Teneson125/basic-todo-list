@@ -1,7 +1,3 @@
-Of course, if you want a simplified README that focuses on the core functions of the project, here's a minimal version:
-
----
-
 # To-Do List Web Application
 
 ## Functions
